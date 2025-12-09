@@ -1,6 +1,22 @@
+# Node dependencies
 node_modules/
+
+# Environment variables
+.env
+
+# Database files
 *.db
 *.sqlite
 *.sqlite3
+
+# Log files
 *.log
-.env
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+
+# npm debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
